@@ -3,6 +3,7 @@
 
 never is a CLI tool that builds and (re)starts your web application whenever there is a change in the source files.
 
+[![Gitter](https://badges.gitter.im/ashrko619/never.svg)](https://gitter.im/ashrko619/never?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## Installation
 
