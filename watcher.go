@@ -44,7 +44,7 @@ func watchFolder(path string) {
 					msg := ev.String()
 					i := strings.LastIndex(msg, ":")
 					//FORMAT -> "filename":OP
-					//cremove quotes and call cleanPath for filename
+					//remove quotes and call cleanPath for filename
 					if i != -1 {
 						watchLog("\n\nReceived %s", cleanPath(msg[1:i-1])+":"+msg[i+1:])
 					} else {

@@ -30,7 +30,7 @@ func build() bool {
 		buildLog(string(stderrbuff))
 		return false
 	}
-	buildLog("Build Successfull...\n\n")
+	buildLog("Build Successful...\n\n")
 
 	return true
 }
